@@ -1,0 +1,120 @@
+Review the articles an assign a score and tags to the article based on the system below.
+
+Editorial Guide: Style, Coverage & Prioritization
+This guide provides a clear framework for our editorial strategy. It outlines the types of stories we prioritize and those we avoid, and it includes a simple, objective system for tagging and ranking articles to ensure our content remains focused, consistent, and relevant to our B2B audience.
+Part 1: Editorial Style & Scope
+Our newsletter is a B2B digest for professionals in the fragrance and beauty industry. The goal is to report on the "why" behind industry happenings, focusing on business strategy, market dynamics, and emerging trends.
+Core Coverage Pillars: What We Cover
+1. Fragrance as a Primary Focus This is our most important and frequently covered category. We track it from every angle.
+* Market & Category Growth: Report on fragrance being the fastest-growing beauty category[cite: 62, 77], often outpacing skincare[cite: 77].
+* Consumer Behavior: Detail the influence of Gen Z[cite: 62, 66, 78], the rise of "fragrance wardrobes"[cite: 67, 121], and the popularity of layering and discovery sets[cite: 63, 322].
+* New Launches: Feature new products from a wide range of brands, including major celebrity lines (Drake, Ice Spice) [cite: 115, 268] and artisanal/niche houses (Marc-Antoine Barrois)[cite: 111].
+* Category Expansion: Cover the trend of brands extending into adjacent products like body sprays[cite: 353], hair mists[cite: 63, 78], and home scents transitioning to personal fragrances[cite: 115].
+2. The Business of Beauty We go beyond product announcements to analyze the financial and strategic moves shaping the industry.
+* Financial Reporting: Summarize quarterly earnings from major corporations like L'Oréal[cite: 42], Puig[cite: 206], and Shiseido[cite: 284].
+* Industry Deals (M&A and Funding): Report on acquisitions, such as Church & Dwight's purchase of Touchland[cite: 295], and funding rounds for emerging brands like Gente[cite: 57].
+* Retailer Performance: Analyze the success and struggles of key retailers, including Bluemercury's consistent growth[cite: 163, 172, 330], the decline of Sephora's sales events[cite: 93], and the collapse of partnerships like J.C. Penney and Thirteen Lune[cite: 336].
+3. Macro-Economic and Geopolitical Impacts We connect global events directly to the beauty industry.
+* Tariffs and Supply Chain: This is a major, recurring theme. We cover the impact of U.S. tariffs on pricing[cite: 48, 129], brand strategy[cite: 51, 130], contract negotiations[cite: 201], and the exploration of nearshoring manufacturing to places like Mexico[cite: 276].
+4. Retail and Marketing Strategy Evolution We track how and where brands are selling their products and connecting with customers.
+* Channel Dynamics: Detail the strategies of major retailers like Ulta [cite: 36, 159] and Sephora[cite: 34], while also giving significant attention to the disruptive impact of TikTok Shop [cite: 64, 90] and Amazon's growing dominance[cite: 35, 97].
+* Marketing and Engagement: Focus on innovative marketing tactics, such as experiential pop-ups (Gisou, Patrick Ta)[cite: 86, 238], brand collaborations (Bubble x Olive & June)[cite: 155], and strategic partnerships with non-traditional players like the WNBA[cite: 28, 326].
+* The Power of AI: We cover the practical application of AI in the industry, from virtual try-ons and personalization [cite: 218] to tools that fight counterfeits [cite: 372] and predict consumer behavior[cite: 373].
+5. Key Consumer and Product Trends We identify the key shifts in consumer behavior and product development.
+* Gen Z as a Driving Force: Analyze their spending habits[cite: 66], brand preferences[cite: 69], and influence on categories like fragrance [cite: 62] and sustainable body care[cite: 20].
+* The "Skinification" of Beauty: Report on the trend of body care[cite: 318], makeup[cite: 168], and hair care adopting sophisticated, science-backed ingredients typically found in facial skincare.
+* Beauty and Wellness Convergence: Cover the blurring lines between beauty and health, including ingestibles[cite: 53], wearable wellness devices[cite: 5], and the growth of intimate care categories[cite: 106].
+What We Don't Cover
+To maintain our B2B focus, we consciously avoid certain types of content.
+* Hard Science or Formulation Deep Dives: We will mention that a product is "science-backed"[cite: 172], but we do not provide detailed explanations of chemical formulations.
+* Consumer-Facing Content (Reviews, Tutorials): We do not write product reviews from a first-person perspective or publish "how-to" guides for achieving specific looks.
+* Celebrity Gossip: When covering a celebrity brand launch, our focus is exclusively on the business strategy [cite: 117] and retail partners[cite: 115]. We do not report on their personal lives.
+* DIY Beauty: Our content is focused on the commercial beauty market.
+* Detailed Legislative Analysis: We report on the business impact of regulations like tariffs[cite: 47, 366], but we do not delve into the granular details of the legislative process itself.
+________________
+
+
+Part 2: Article Tagging & Priority Scoring System
+This system provides a simple, objective method for categorizing every article and assigning it a priority score. This helps determine an article's importance and placement within the newsletter.
+The Tagging System
+Every article gets one Primary Tag that defines its main subject and multiple Secondary Tags that add factual detail.
+Primary Tags (Choose ONE per article)
+* FRAGRANCE: The main subject is personal fragrance, home fragrance, the fragrance market, or a scent-focused brand.
+* BRAND: The main subject is a specific beauty brand's strategy, launch, or rebrand (and it is not primarily about fragrance).
+* RETAIL: The main subject is a retailer (Sephora, Ulta), an e-commerce platform (TikTok Shop, Amazon), or a retail strategy/event.
+* INDUSTRY: The main subject is a macro-level topic, such as M&A, financial reports, supply chain issues, or regulations affecting the broader market.
+* MARKETING: The main subject is a specific marketing campaign, a partnership, or an activation.
+* OTHER: The main subject does not fit into any of the above categories.
+Secondary Tags (Choose ALL that apply)
+* New Launch
+* Financials
+* M&A
+* Tariffs/Supply Chain
+* Retail Strategy
+* Gen Z
+* TikTok
+* Partnership
+The Priority Scoring System
+Sum the points from the article's tags to get its final priority score.
+Tag
+	Points
+	Rationale
+	PRIMARY: FRAGRANCE
+	5
+	Our most important and strategic pillar.
+	PRIMARY: INDUSTRY
+	4
+	Covers high-level business news essential for our B2B audience.
+	PRIMARY: RETAIL
+	3
+	A core focus area covering our key players and channels.
+	PRIMARY: BRAND/MARKETING
+	2
+	Important, but often more tactical.
+	PRIMARY: OTHER
+	0
+	Captures all non-core topics, assigning them the lowest base priority.
+	SECONDARY: Financials
+	+3
+	Hard numbers and data are a top priority.
+	SECONDARY: M&A
+	+3
+	Major industry-shaping events.
+	SECONDARY: Tariffs/Supply Chain
+	+3
+	Critical macro issue with direct business impact.
+	SECONDARY: TikTok
+	+2
+	The most disruptive and discussed channel shift.
+	SECONDARY: Gen Z
+	+2
+	The most influential consumer demographic in current trends.
+	SECONDARY: Retail Strategy
+	+2
+	Key insights into how and where brands are selling.
+	SECONDARY: All Others
+	+1
+	Adds valuable context but is less central to our core strategy.
+	Ranking Tiers & Examples
+* 10+ Points: Must-Cover. A lead story that hits multiple core themes.
+   * Example: Church & Dwight Acquires Touchland for $700M
+      * Primary: INDUSTRY (+4)
+      * Secondary: M&A (+3), Financials (+3), Gen Z (+2), Retail Strategy (+2)
+      * Score: 14 [cite: 295, 296, 297]
+* 6-9 Points: High Priority. A strong story that should be included prominently.
+   * Example: 'Let's get absurd': Why some brands are leaning into tariff price increases
+      * Primary: INDUSTRY (+4)
+      * Secondary: Tariffs/Supply Chain (+3)
+      * Score: 7 [cite: 47, 48]
+* 3-5 Points: Medium Priority. Good for a brief mention or if space allows.
+   * Example: Gwyneth Paltrow’s Goop Beauty Lands in Italy
+      * Primary: BRAND (+2)
+      * Secondary: Retail Strategy (+2)
+      * Score: 4 [cite: 347]
+
+
+IMPORTANT INSTRUCTION: Only return the score and tags and nothing else. Use this following example format strictly:
+
+PRIMARY: BRAND
+SECONDARY: Retail Strategy
+SCORE: 4
