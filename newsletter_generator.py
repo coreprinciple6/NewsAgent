@@ -327,9 +327,10 @@ def generate_newsletter_html(df, csv_url):
 <body>
   <div class="newsletter">
     <h2>📰 Daily Highlights – Top Stories</h2>
-    <p>📄 <a href="{csv_url}">Click here to view the full list as CSV</a></p>
+    <
+    <p>📄 <a href="{csv_url}" download="newsletter_data.csv">Click here to download the full list as CSV</a></p>
 """
-
+    #<p>📄 <a href="{csv_url}">Click here to view the full list as CSV</a></p>
     processed_groups = set()
     
     for _, row in df.iterrows():
@@ -475,7 +476,7 @@ def main():
         final_df.to_csv(final_csv_path, index=False)
         
         # Generate CSV URL (public repo)
-        #csv_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{final_csv_path}"
+        csv_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{final_csv_path}"
         csv_download_url = f"https://github.com/{GITHUB_REPO}/raw/main/{final_csv_path}"
         
         # Generate newsletter HTML
