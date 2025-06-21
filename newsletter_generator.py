@@ -475,21 +475,22 @@ def main():
         final_df.to_csv(final_csv_path, index=False)
         
         # Generate CSV URL (public repo)
-        csv_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{final_csv_path}"
+        #csv_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{final_csv_path}"
+        csv_download_url = f"https://github.com/{GITHUB_REPO}/raw/main/{final_csv_path}"
         
         # Generate newsletter HTML
         print("📝 Generating newsletter HTML...")
         newsletter_df = final_df.head(20)
-        html_content = generate_newsletter_html(newsletter_df, csv_url)
+        html_content = generate_newsletter_html(newsletter_df, csv_download_url)
         
-        # Save HTML
-        html_path = f"newsletter/newsletter_{time_str}.html"
-        Path(html_path).write_text(html_content, encoding='utf-8')
-        print(f"💾 Saved newsletter HTML to {html_path}")
+        # # Save HTML
+        # html_path = f"newsletter/newsletter_{time_str}.html"
+        # Path(html_path).write_text(html_content, encoding='utf-8')
+        # print(f"💾 Saved newsletter HTML to {html_path}")
         
         # Trigger Zapier webhook
         print("📧 Triggering Zapier webhook...")
-        webhook_success = trigger_zapier_webhook(csv_url, html_content, time_str)
+        webhook_success = trigger_zapier_webhook(csv_download_url, html_content, time_str)
         
         # Print summary
         print("\n📈 Newsletter Summary:")
