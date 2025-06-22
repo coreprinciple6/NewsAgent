@@ -327,7 +327,6 @@ def generate_newsletter_html(df, csv_url):
 <body>
   <div class="newsletter">
     <h2>📰 Daily Highlights – Top Stories</h2>
-    <
     <p>📄 <a href="{csv_url}" download="newsletter_data.csv">Click here to download the full list as CSV</a></p>
 """
     #<p>📄 <a href="{csv_url}">Click here to view the full list as CSV</a></p>
@@ -478,11 +477,12 @@ def main():
         # Generate CSV URL (public repo)
         csv_url = f"https://raw.githubusercontent.com/{GITHUB_REPO}/main/{final_csv_path}"
         csv_download_url = f"https://github.com/{GITHUB_REPO}/raw/main/{final_csv_path}"
+        csv_view_url = f"https://github.com/{GITHUB_REPO}/blob/main/{final_csv_path}"
         
         # Generate newsletter HTML
         print("📝 Generating newsletter HTML...")
         newsletter_df = final_df.head(20)
-        html_content = generate_newsletter_html(newsletter_df, csv_download_url)
+        html_content = generate_newsletter_html(newsletter_df, csv_view_url)
         
         # # Save HTML
         # html_path = f"newsletter/newsletter_{time_str}.html"
@@ -491,7 +491,7 @@ def main():
         
         # Trigger Zapier webhook
         print("📧 Triggering Zapier webhook...")
-        webhook_success = trigger_zapier_webhook(csv_download_url, html_content, time_str)
+        webhook_success = trigger_zapier_webhook(csv_view_url, html_content, time_str)
         
         # Print summary
         print("\n📈 Newsletter Summary:")
