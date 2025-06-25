@@ -76,7 +76,7 @@ def process_rss(rss_feeds):
 
     return pd.DataFrame(all_articles)
 
-def gpt_filter_articles(articles, model="gpt-4"):
+def gpt_filter_articles(articles, model="gpt-4-1106-preview"):
     """Filter articles using GPT based on user preferences"""
     filtered_articles = []
     
@@ -463,6 +463,13 @@ def main():
         shortlist = gpt_filter_articles(fulllist)
         shortlist = shortlist.sort_values(by='score', ascending=False)
         print(f"✅ Filtered to {len(shortlist)} articles")
+
+        # omit articles with score less than 2
+        shortlist = shortlist[shortlist['score'] >= 3]
+        if shortlist.empty:
+            print("❌ No articles left after filtering, exiting")
+            return
+        print(f"📊 Shortlist contains {len(shortlist)} articles after filtering")
 
         # Group articles
         print("🔗 Grouping related articles...")
