@@ -3,7 +3,7 @@ name: Daily Newsletter Generator
 
 on:
   schedule:
-    - cron: '0 13 * * *'  # 8 AM UTC daily
+    - cron: '0 13 * * 5'  # Every Friday at 13:00 UTC (8 AM ET in standard time)
   workflow_dispatch:  # Manual trigger
 
 jobs:
