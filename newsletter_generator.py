@@ -326,7 +326,7 @@ def generate_newsletter_html(df, csv_url):
 </head>
 <body>
   <div class="newsletter">
-    <h2>📰 Daily Highlights – Top Stories</h2>
+    <h2>📰 Tru Industry Newsletter (Old)</h2>
     <p>📄 <a href="{csv_url}" download="newsletter_data.csv">Click here to download the full list as CSV</a></p>
 """
     #<p>📄 <a href="{csv_url}">Click here to view the full list as CSV</a></p>
